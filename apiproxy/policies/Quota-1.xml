@@ -2,7 +2,7 @@
 <Quota async="false" continueOnError="false" enabled="true" name="Quota-1" type="calendar">
     <DisplayName>Quota-1</DisplayName>
     <Properties/>
-    <Allow count="2000" countRef="request.header.allowed_quota"/>
+    <Allow count="2006" countRef="request.header.allowed_quota"/>
     <Interval ref="request.header.quota_count">1</Interval>
     <Distributed>false</Distributed>
     <Synchronous>false</Synchronous>
